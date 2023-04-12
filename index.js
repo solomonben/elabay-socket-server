@@ -72,5 +72,5 @@ function removeUser(userName, id){
 }
 
 http.listen(SOCKET_PORT, () => {
-    console.log('server running!')
+    console.log(`server running! running on port ${SOCKET_PORT}`)
 })
